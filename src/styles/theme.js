@@ -1,6 +1,7 @@
 import {Platform} from 'react-native';
 import {wp, hp, rf, spacing, typography} from '../utils/responsive';
 
+// Color palette for the application
 export const colors = {
   primary: {
     main: '#3498db',
@@ -46,6 +47,7 @@ export const colors = {
   },
 };
 
+// Platform-specific shadow styles
 export const shadows = {
   small: {
     ...Platform.select({
@@ -88,6 +90,7 @@ export const shadows = {
   },
 };
 
+// Border radius values for consistent rounded corners
 export const borderRadius = {
   small: 4,
   medium: 8,
@@ -96,6 +99,7 @@ export const borderRadius = {
   round: 50,
 };
 
+// Main theme object combining all style constants
 export const theme = {
   colors,
   spacing,

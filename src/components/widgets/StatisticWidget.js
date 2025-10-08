@@ -5,6 +5,7 @@ import BaseWidget from './BaseWidget';
 import {theme} from '../../styles/theme';
 import {isTablet} from '../../utils/responsive';
 
+// Widget for displaying statistics
 const StatisticWidget = ({
   title,
   value,
@@ -17,7 +18,7 @@ const StatisticWidget = ({
 }) => {
   const isTab = isTablet();
   const isPositiveTrend = trend === 'up';
-  const trendColor = isPositiveTrend
+  const trendColor = isPositiveTrend // Set trend color based on direction
     ? theme.colors.semantic.success
     : theme.colors.semantic.error;
 

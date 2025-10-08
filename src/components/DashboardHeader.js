@@ -11,6 +11,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import {theme} from '../styles/theme';
 import {wp, hp, isTablet, getAdaptivePadding} from '../utils/responsive';
 
+// Dashboard header component with title, menu, notifications, and profile
 const DashboardHeader = ({
   title = 'Dashboard',
   subtitle,

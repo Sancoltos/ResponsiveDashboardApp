@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import {theme} from '../../styles/theme';
 import {isTablet} from '../../utils/responsive';
 
+// Base widget component
 const BaseWidget = ({
   title,
   icon,
